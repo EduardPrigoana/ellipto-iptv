@@ -23,7 +23,6 @@ import InputBase from "@mui/material/InputBase";
 import MenuIcon from "@mui/icons-material/Menu";
 import HomeIcon from "@mui/icons-material/Home";
 import PlaylistPlayIcon from "@mui/icons-material/PlaylistPlay";
-import SettingsIcon from "@mui/icons-material/Settings";
 import EditIcon from "@mui/icons-material/Edit";
 import SearchIcon from "@mui/icons-material/Search";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
@@ -109,19 +108,6 @@ function Page(props) {
               <HomeIcon />
             </ListItemIcon>
             <ListItemText primary="Home" />
-          </ListItemButton>
-        </ListItem>
-        <ListItem disablePadding>
-          <ListItemButton
-            onClick={() => {
-              handleDrawerToggle();
-              pathname !== "/settings" && navigate("/settings");
-            }}
-          >
-            <ListItemIcon>
-              <SettingsIcon />
-            </ListItemIcon>
-            <ListItemText primary="Settings" />
           </ListItemButton>
         </ListItem>
       </List>
