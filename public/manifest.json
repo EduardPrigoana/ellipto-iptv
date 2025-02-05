@@ -1,7 +1,7 @@
 {
-  "name": "Ellipto IPTV",
-  "short_name": "Ellipto IPTV",
-  "description": "Ellipto IPTV is a progressive web app to watch m3u and m3u8 playlists",
+  "name": "IPTV",
+  "short_name": "IPTV",
+  "description": "Watch IPTV playlists",
   "icons": [
     {
       "src": "favicon.ico",
@@ -29,7 +29,7 @@
     {
       "name": "Home",
       "short_name": "Home",
-      "description": "Open iptv home",
+      "description": "Open home",
       "url": "/?source=pwa",
       "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
     },
